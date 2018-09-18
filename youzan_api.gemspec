@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/youzan_api.rb"]
   s.homepage    = 'https://github.com/keonjeo/youzan_api'
   s.license     = 'MIT'
+  s.add_development_dependency 'dotenv', '~> 2.3', '>= 2.3.0'
 end
