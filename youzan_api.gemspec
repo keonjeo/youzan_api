@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "An easy way to call the youzan API's gem"
   s.authors     = ["Keon Ye"]
   s.email       = 'staven.vanderbilt@gmail.com'
-  s.files       = ["lib/youzan_api.rb"]
+  s.files       = ["lib/youzan_api.rb", "lib/youzan/token_client.rb"]
   s.homepage    = 'https://github.com/keonjeo/youzan_api'
   s.license     = 'MIT'
   s.add_development_dependency 'byebug', '~> 10.0', '>= 10.0.2'
