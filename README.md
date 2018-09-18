@@ -12,12 +12,12 @@ redis-server
    - 复制.env.example文件为.env文件
    - 修改.env里面环境变量的值，根据具体情况进行配置
    
-    ```
-    YOUZAN_CLIENT_ID="67cf2d831381d67ab8"
-    YOUZAN_CLIENT_SECRET="13172520585f3341c857ffb52e99b71a"
-    KDT_ID="41442241"
-    REDIS_HOST="127.0.0.1"
-    ```
+   ```
+   YOUZAN_CLIENT_ID="67cf2d831381d67ab8"
+   YOUZAN_CLIENT_SECRET="13172520585f3341c857ffb52e99b71a"
+   KDT_ID="41442241"
+   REDIS_HOST="127.0.0.1"
+   ```
 
 # 获取`access_token`
 
