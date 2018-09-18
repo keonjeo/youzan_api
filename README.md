@@ -9,8 +9,8 @@ redis-server
 
 # 配置环境变量
 
-   - 复制.env.example文件为.env文件
-   - 修改.env里面环境变量的值，根据具体情况进行配置
+   - 复制`.env.example`文件为`.env`文件
+   - 修改`.env`里面环境变量的值，根据具体情况进行配置
    
    ```
    YOUZAN_CLIENT_ID="67cf2d831381d67ab8"
