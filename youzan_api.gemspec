@@ -10,4 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/keonjeo/youzan_api'
   s.license     = 'MIT'
   s.add_development_dependency 'dotenv', '~> 2.3', '>= 2.3.0'
+  s.add_development_dependency 'redis', '~> 4.0', '>= 4.0.2'
+  s.add_development_dependency 'faraday', '~> 0.15.2'
 end
