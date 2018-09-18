@@ -1,7 +1,7 @@
 # 有赞API集成Gem包（`youzan_api gem`）
 
 
-# 用`redis`作为缓存，用这个gem包，需要先启动`redis-server`
+# 用`redis`作为缓存，需要先启动`redis-server`
 
 ```
 redis-server
