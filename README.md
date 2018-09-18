@@ -1,5 +1,21 @@
 # 有赞API集成Gem包（`youzan_api gem`）
 
+
+# 用`redis`作为缓存，用这个gem包，需要先启动`redis-server`
+
+```
+redis-server
+```
+
+# 配置环境变量
+
+```
+YOUZAN_CLIENT_ID="67cf2d831381d67ab8"
+YOUZAN_CLIENT_SECRET="13172520585f3341c857ffb52e99b71a"
+KDT_ID="41442241"
+REDIS_HOST="127.0.0.1"
+```
+
 # 获取`access_token`
 
 ```ruby
